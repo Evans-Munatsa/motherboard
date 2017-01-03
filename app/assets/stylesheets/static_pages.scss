@@ -11,6 +11,8 @@ body {
 }
 
 .img-portfolio {
+    padding: 5;
+    float: right;
     margin-bottom: 30px;
 }
 
@@ -23,6 +25,8 @@ body {
 header.carousel {
     height: 50%;
 }
+
+
 
 header.carousel .item,
 header.carousel .item.active,
@@ -85,6 +89,12 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 60%;
+    margin: auto;
 }
 
 .contact {
