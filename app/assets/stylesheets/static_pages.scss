@@ -23,7 +23,7 @@ body {
 /* Home Page Carousel */
 
 header.carousel {
-    height: 50%;
+    height: 80%;
 }
 
 
@@ -32,11 +32,13 @@ header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner {
     height: 100%;
+    background-image:url(image_path('code.jpg'));
+
 }
 
 header.carousel .fill {
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-position: center;
     background-size: cover;
 }
@@ -87,7 +89,7 @@ footer {
     }
 
     header.carousel .carousel {
-        height: 70%;
+        height: 100%;
     }
 }
 
